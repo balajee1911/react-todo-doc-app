@@ -1,0 +1,88 @@
+.add__record__component {
+  border: none;
+  border-radius: 8px;
+  width: 45%;
+  box-shadow: 0px 0px 5px #35b968;
+  top: calc(100vh - 65vh);
+  img {
+    margin-left: 93%;
+
+  }
+
+  .addRecord__component {
+    box-shadow: 0px 0px 5px #35b968;
+    border-radius: 8px;
+    padding: 16px;
+    margin: auto;
+
+    span {
+      font-size: small;
+      color: rgba(243, 17, 17, 0.822);
+    }
+
+    .create__record__form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+      label {
+        width: 100%;
+        font-style: bold;
+        font-size: x-large;
+      }
+
+      input,
+      textarea {
+        outline: none;
+        min-height: 25px;
+        border: none;
+        text-align: center;
+        border-radius: 4px;
+
+        &:hover {
+          box-shadow: 0px 0px 5px #35b968;
+        }
+
+        &:focus {
+          box-shadow: 0px 0px 5px #35b968;
+        }
+      }
+
+      .input__field {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+        .title__input {
+          font-family: math;
+          font-weight: bold;
+        }
+
+        .priority__input::-webkit-outer-spin-button,
+        .priority__input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      }
+
+      .description__input {
+        width: 100%;
+        overflow: hidden;
+        resize: none;
+      }
+
+      .submit__button {
+        background-color: #35b968;
+        color: #fff;
+        padding: 8px 23px;
+
+        &:hover {
+          box-shadow: 0px 0px 5px #35b968;
+        }
+      }
+    }
+  }
+}

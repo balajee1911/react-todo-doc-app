@@ -1,0 +1,76 @@
+.list__records__page {
+
+
+  .list__records {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #add8bd;
+    justify-content: center;
+
+    .record__view{
+      cursor: pointer;
+    }
+
+    .add__record__button {
+      display: flex;
+      justify-content: center;
+
+      button {
+        border: none;
+        width: 45%;
+        border-radius: 5px;
+        padding: 12px 17px;
+        font-family: fangsong;
+        box-shadow: 0px 0px 5px #2cc4c4;
+        background-color: #FFF;
+
+        &:hover {
+          transform: scale(1.1);
+          color: #2cc4c4;
+          box-shadow: 0px 0px 5px #2cc4c4;
+        }
+      }
+    }
+
+
+    div:nth-child(4) p {
+      color: #FFF;
+      font-size: x-large;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: #d129bb !important;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    &:hover {
+      box-shadow: 0px 0px 5px #d129bb;
+    }
+
+    .no_records {
+      transform: none;
+      justify-content: center;
+
+      p {
+        width: fit-content;
+        font-size: x-large;
+
+        &:hover {
+          width: 86%;
+          height: 100%;
+          color: #FFF;
+          background-color: #be1a1a;
+          box-shadow: 0px 0px 5px #bd0a0a;
+        }
+      }
+    }
+
+
+  }
+}

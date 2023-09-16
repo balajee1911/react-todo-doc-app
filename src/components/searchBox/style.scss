@@ -1,0 +1,19 @@
+.search__box__component {
+  input {
+    padding: 7px;
+    width: 45%;
+    border-radius: 8px;
+    font-family: fangsong;
+    border: none;
+    position: relative;
+
+
+    &:hover {
+      transform: scale(1.04);
+      box-shadow: 0px 0px 5px #d129bb;
+    }
+    &:focus {
+      transform: unset;
+    }
+  }
+}
